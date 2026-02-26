@@ -1,0 +1,18 @@
+# 💥 [Nexus Sovereign Signaling Server - Render.com Blueprint]
+# 이 파일은 Render 클라우드에 인프라 구성을 자동으로 지시하는 마스터 설계도입니다.
+
+version: "1"
+
+services:
+  - type: web
+    name: airoui-signal-node
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 20.x
