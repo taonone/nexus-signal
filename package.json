@@ -1,13 +1,15 @@
 {
   "name": "nexus-signaling-node",
-  "version": "1.0.0",
-  "description": "Airoui Sovereign P2P Signaling Server",
+  "version": "2.0.0",
+  "description": "Airoui Dual-Core Signaling & Relay Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "ws": "^8.16.0"
+    "ws": "^8.16.0",
+    "yjs": "^13.6.1",
+    "y-websocket": "^1.5.0"
   },
   "engines": {
     "node": ">=18.0.0"
