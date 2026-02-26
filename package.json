@@ -1,17 +1,15 @@
 {
   "name": "nexus-signaling-node",
-  "version": "2.0.0",
-  "description": "Airoui Dual-Core Signaling & Relay Server",
+  "version": "3.0.0",
+  "description": "Airoui Sovereign Triple-Core Node",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "ws": "^8.16.0",
-    "yjs": "^13.6.1",
-    "y-websocket": "^1.5.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "y-websocket": "^1.5.0",
+    "yjs": "^13.6.14",
+    "bittorrent-tracker": "^9.19.0"
   }
 }
